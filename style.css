@@ -48,11 +48,89 @@ body, html {
   padding: 5px 10px;
   border-radius: 10px;
   transition: 0.3s;
+  font-weight: 300;
 }
 .FirstContainer .menu-list a i{
   margin-right: 15px;
   padding: 5px 0;
+  font-size: 1.2rem;
 }
 .FirstContainer .menu-list a:hover{
   background-color: rgb(73, 73, 148);
+}
+
+.SecondContainer h2{
+  font-size: 1.3rem;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.child-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.child-container  h3{
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.child-container .gelir{
+  padding: 30px 100px;
+  box-shadow: 0px 4px 5px -2px rgb(197, 194, 194);
+  border-radius: 5px;
+}
+.child-container .gelir p{
+  color: rgba(133 159 61);
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.child-container .gelir p i{
+  font-size: 1.9rem;
+  margin-left: 10px;
+}
+.child-container .gider{
+  padding: 30px 100px;
+  box-shadow: 0px 4px 5px -2px rgb(197, 194, 194);
+  border-radius: 5px;
+}
+.child-container .gider p{
+  color: rgba(249 , 84 , 84);
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.child-container .gider p i{
+  font-size: 1.9rem;
+  margin-left: 10px;
+}
+.child-container .kalan{
+  padding: 30px 100px;
+  box-shadow: 0px 4px 5px -2px rgb(197, 194, 194);
+  border-radius: 5px;
+}
+.child-container .kalan p{
+  color: rgba(99 102 241);
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 40px;
+  font-weight: 600;
+}
+.child-container .kalan p i{
+  font-size: 1.9rem;
+  margin-left: 10px;
 }
