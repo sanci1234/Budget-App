@@ -1,34 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body, html {
-    font-family: "Montserrat", sans-serif;
-    height: 100%;
-    margin: 0;
+  font-family: "Montserrat", sans-serif;
+  height: 100%;
+  margin: 0;
 }
 
 .Container {
-    display: flex; 
-    height: 100%; 
+  display: flex; 
+  height: 100%; 
 }
 
-  
-  .FirstContainer {
-    width: 25%; 
-    background-color: rgb(85, 85, 170); 
-    color: white; 
-    padding: 20px; 
-  }
-
-  
-  .SecondContainer {
-    width: 75%; 
-    background-color: white; 
-    color: black; 
-    padding: 20px; 
-  }
+.FirstContainer {
+  width: 25%; 
+  background-color: rgb(95, 95, 168); 
+  color: white; 
+  padding: 10px; 
+}
+.FirstContainer h2{
+  margin-top: 40px;
+  font-size: 1.1rem;
+}
+.SecondContainer {
+  width: 75%; 
+  background-color: white; 
+  color: black; 
+  padding: 20px; 
+}
+.FirstContainer .menu{
+    margin-top: 40px;
+}
+.FirstContainer .menu-list{
+  list-style: none;
+}
+.FirstContainer .menu-list a{
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 18px;
+  border: 1px solid transparent;
+  padding: 5px 10px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.FirstContainer .menu-list a i{
+  margin-right: 15px;
+  padding: 5px 0;
+}
+.FirstContainer .menu-list a:hover{
+  background-color: rgb(73, 73, 148);
+}
