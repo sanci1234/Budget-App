@@ -18,7 +18,7 @@ body, html {
 }
 
 .FirstContainer {
-  width: 25%; 
+  width: 20%; 
   background-color: rgb(95, 95, 168); 
   color: white; 
   padding: 10px; 
@@ -28,7 +28,7 @@ body, html {
   font-size: 1.1rem;
 }
 .SecondContainer {
-  width: 75%; 
+  width: 80%; 
   background-color: white; 
   color: black; 
   padding: 20px; 
@@ -136,3 +136,49 @@ body, html {
   margin-left: 10px;
 }
 
+.card-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.card-container p{
+  font-weight: bold;
+}
+.card-container .card-1{
+  background-color: rgb(205, 220, 233);
+  width: 49%;
+  height: 50vh;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: start;
+}
+.card-container .card-2{
+  background-color: rgb(205, 220, 233);
+  width: 49%;
+  height: 50vh;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: start;
+}
+.message-box {
+  margin-top: 20px;
+  background-color: #fae676; 
+  border-radius: 4px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #000; 
+  font-weight: bold;
+}
+
+.message-box .icon {
+  margin-right: 10px;
+}
+
+.message-box .icon::before {
+  content: 'ℹ️'; 
+  font-size: 18px;
+}
