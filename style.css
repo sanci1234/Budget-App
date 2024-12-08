@@ -152,3 +152,55 @@ body, html {
     height: 18vh;
   }
 }
+
+/* Gelir Sayfası Css */
+
+.total-section{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.total{
+  flex: 1;
+  min-width: 300px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 40vh;
+  border-radius: 5px;
+}
+.total .title{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+.total .title .btn{
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: blue;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  color: #fff;
+}
+.btn span::before{
+  content: "\f067";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin-right: 8px;
+}
+.title-second-chart .btn span::before{
+  content: "\f06e";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+}
+.total .info {
+  background-color: rgb(235, 235, 59);
+  padding: 8px;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
