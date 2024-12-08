@@ -203,4 +203,8 @@ body, html {
   border-radius: 5px;
   margin-top: 25px;
 }
+.total .info p{
+  font-size: 1rem;
+  font-weight: bold;
+}
 
