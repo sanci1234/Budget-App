@@ -208,3 +208,27 @@ body, html {
   font-weight: bold;
 }
 
+/* İşlemler Page */
+
+.table{
+margin: 10px 20px;
+}
+.child-table{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin: 10px 20px; */
+}
+.child-table h1{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.child-table .btn{
+  background-color: rgb(119, 119, 136);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 10px;
+  font-size: 1rem;
+}
